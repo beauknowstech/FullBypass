@@ -1,4 +1,9 @@
 # FullBypass
+Single change made by beauknowstech:
+Instead of asking for IP and port, then using a built in reverse shell, it now simply IEX's a reverse shell ps1
+
+
+
 A tool which bypasses AMSI (AntiMalware Scan Interface) and PowerShell CLM (Constrained Language Mode) and gives you a FullLanguage PowerShell reverse shell.
 
 ```batch
