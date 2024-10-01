@@ -1,7 +1,12 @@
 # FullBypass
-Single change made by beauknowstech:
-Instead of asking for IP and port, then using a built in reverse shell, it now simply IEX's a reverse shell ps1
+Single change made by [@beauknowstech](https://github.com/beauknowstech):
 
+Instead of asking for IP and port, then using a built in reverse shell, it now simply IEX's a reverse shell ps1. This is done to avoid AV detections on FullBypass.csproj
+
+Simply edit line 168 on FullBypass.csproj to your URL and reverse shell ps1
+
+
+The rest is full credit to [@Sh3lldon](https://github.com/Sh3lldon):
 
 
 A tool which bypasses AMSI (AntiMalware Scan Interface) and PowerShell CLM (Constrained Language Mode) and gives you a FullLanguage PowerShell reverse shell.
